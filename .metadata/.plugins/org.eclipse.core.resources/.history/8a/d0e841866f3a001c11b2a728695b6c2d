@@ -1,0 +1,32 @@
+package one;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class caaa {
+WebDriver driver=null;
+	
+//	@BeforeClass
+	@BeforeMethod
+	public void Launch()
+	{
+		WebDriverManager.chromedriver().setup();
+	}
+
+	
+	@Test(priority=1)
+	public void title()
+	{
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.telerik.com/support/demos");
+		 System.out.println("Page Title: "+driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Telerik Product Demos, Examples and Tutorials for all Telerik products");
+	}
+
+}

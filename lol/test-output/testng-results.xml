@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-01T17:51:34 IST" name="Default suite" finished-at="2021-11-01T17:51:47 IST" duration-ms="12116">
+    <groups>
+    </groups>
+    <test started-at="2021-11-01T17:51:34 IST" name="Default test" finished-at="2021-11-01T17:51:47 IST" duration-ms="12116">
+      <class name="lol.p">
+        <test-method is-config="true" signature="open()[pri:0, instance:lol.p@1534f01b]" started-at="2021-11-01T17:51:34 IST" name="open" finished-at="2021-11-01T17:51:36 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="check()[pri:0, instance:lol.p@1534f01b]" started-at="2021-11-01T17:51:36 IST" name="check" finished-at="2021-11-01T17:51:42 IST" duration-ms="5950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="close()[pri:0, instance:lol.p@1534f01b]" started-at="2021-11-01T17:51:42 IST" name="close" finished-at="2021-11-01T17:51:47 IST" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- lol.p -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

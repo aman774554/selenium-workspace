@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-31T22:45:57 IST" name="Default suite" finished-at="2021-10-31T22:46:10 IST" duration-ms="13071">
+    <groups>
+    </groups>
+    <test started-at="2021-10-31T22:45:57 IST" name="Default test" finished-at="2021-10-31T22:46:10 IST" duration-ms="13071">
+      <class name="TestNg.Real1">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:45:57 IST" name="Launch" finished-at="2021-10-31T22:46:00 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="facebook()[pri:1, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:46:00 IST" name="facebook" finished-at="2021-10-31T22:46:03 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:46:03 IST" name="close" finished-at="2021-10-31T22:46:07 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:46:07 IST" name="Launch" finished-at="2021-10-31T22:46:08 IST" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Google()[pri:2, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:46:08 IST" name="Google" finished-at="2021-10-31T22:46:10 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNg.Real1@7c7d3c46]" started-at="2021-10-31T22:46:10 IST" name="close" finished-at="2021-10-31T22:46:10 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNg.Real1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

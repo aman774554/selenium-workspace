@@ -1,0 +1,50 @@
+package one;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class caaa {
+	WebDriver driver=null;
+	@BeforeClass
+	public void Lanch()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\aman7\\Downloads\\selenium_jar\\Drivers\\chromdriver.exe");
+	    WebDriver driver = new ChromeDriver();
+	    driver .get("https://www.facebook.com/");
+	}
+	@Test(priority=1)
+	  public void facebook() {
+
+		    driver .get("https://www.facebook.com/");
+		    Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
+	  }
+	/*	@Test(priority=2)
+	  public void clickonlink() {
+		 driver.get("https://www.telerik.com/support/demos");
+		  driver.findElement(By.xpath("//body/nav[@id='js-tlrk-nav']/section[1]/div[1]/figure[1]/a[1]/*[1]")).click();
+		  driver. navigate(). back();
+	  }
+
+	
+	@Test(priority=1)
+	public void Launch()
+	{
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.telerik.com/support/demos");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//body/nav[@id='js-tlrk-nav']/section[1]/div[1]/figure[1]/a[1]/*[1]")).click();
+		driver. navigate(). back();
+		Assert.assertEquals(driver.getTitle(), "Google");
+	}
+*/
+}
